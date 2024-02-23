@@ -69,7 +69,7 @@ const sumFunction = (sum1, sum2) => {
 
 사용되는 데이터(json, rest api, ...) 구조의 관련된 내용을 적어주세요.
 
-```Json
+```Javascript
 
 // 예시 문서
 {
