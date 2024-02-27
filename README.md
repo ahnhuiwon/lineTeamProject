@@ -143,13 +143,24 @@ const sumFunction = (sum1, sum2) => {
 ```
     .
     └── src
-         ├── build (pug 빌드 디렉토리)
-         │     └── index.html
-         ├── style (스타일 관련 디렉토리)
-         │     ├── scss (스타일 시트 관련 디렉토리)
-         │     └── image (이미지 관련 디렉토리)
-         ├── js (자바스크립트 관련 디렉토리)
-         └── index.pug
+         ├── node_modules
+         ├── backEnd (백엔드 관련 디렉토리)
+         │     └── database.json
+         └── frontEnd (프론트 관련 디렉토리)
+                ├── build (pug build)
+                │    └── index.html
+                ├─── js (JS 관련 디렉토리)
+                │    ├── admin.js (admin)
+                │    ├── chart.js (chart)
+                │    └── index.js (summary)
+                ├─── style (style 관련 디렉토리)
+                │      ├── image
+                │      └── scss (scss 관련 디렉토리)
+                │            ├── index.css
+                │            ├── index.css.map
+                │            └── index.scss
+                └─── index.pug
+
 ```
 
 <br/>
