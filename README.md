@@ -73,40 +73,49 @@ const sumFunction = (sum1, sum2) => {
 
 // 예시 문서
 {
-    "popularNo3" : [
-        {
-            "week" : 1, // 주 차
-            "weekData" : [ // 주 차에 관련된 데이터
-                { "Rank" : 1, "Singer" : "zard", "Title" : "LUV" }, // Rank == 랭킹, Singer == 가수, Title == 제목
-                { "Rank" : 2, "Singer" : "BlackPink", "Title" : "HOW YOU LIKE THAT" },
-                { "Rank" : 3, "Singer" : "IVE", "Title" : "I AM" }
-            ]
-        },
-        {
-            "week" : 2,
-            "weekData" : [
-                { "Rank" : 1, "Singer" : "IVE", "Title" : "I AM" },
-                { "Rank" : 2, "Singer" : "ZARD", "Title" : "LUV" },
-                { "Rank" : 3, "Singer" : "AESPA", "Title" : "SPICY" }
-            ]
-        },
-        {
-            "week" : 3,
-            "weekData" : [
-                { "Rank" : 1, "Singer" : "zard", "Title" : "LUV" },
-                { "Rank" : 2, "Singer" : "IVE", "Title" : "I AM" },
-                { "Rank" : 3, "Singer" : "NewJeans", "Title" : "Hype Boy" }
-            ]
-        },
-        {
-            "week" : 4,
-            "weekData" : [
-                { "Rank" : 1, "Singer" : "AESPA", "Title" : "SPICY" },
-                { "Rank" : 2, "Singer" : "IVE", "Title" : "I AM" },
-                { "Rank" : 3, "Singer" : "NewJeans", "Title" : "Hype Boy" }
-            ]
-        }
-    ]
+  "month": [
+      {
+          "id": 0,
+          "month_data": 1,
+          "dong": [
+              {
+                  "id": 0,
+                  "name": 101,
+                  "footage": 28,
+                  "area": 89.9,
+                  "kwh": 84563
+              },
+              {
+                  "id": 1,
+                  "name": 102,
+                  "footage": 28,
+                  "area": 89.9,
+                  "kwh": 115414
+              },
+              {
+                  "id": 2,
+                  "name": 103,
+                  "footage": 32,
+                  "area": 105.79,
+                  "kwh": 91254
+              },
+              {
+                  "id": 3,
+                  "name": 104,
+                  "footage": 40,
+                  "area": 132.23,
+                  "kwh": 75191
+              },
+              {
+                  "id": 4,
+                  "name": 105,
+                  "footage": 45,
+                  "area": 148.76,
+                  "kwh": 85842
+              }
+          ]
+      }
+  ]
 }
 ```
 
