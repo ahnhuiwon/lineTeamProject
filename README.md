@@ -73,47 +73,48 @@ const sumFunction = (sum1, sum2) => {
 
 // 예시 문서
 {
-  "month": [
-      {
-          "id": 0,
-          "month_data": 1,
-          "dong": [
-              {
-                  "id": 0,
-                  "name": 101,
-                  "footage": 28,
-                  "area": 89.9,
-                  "kwh": 84563
-              },
-              {
-                  "id": 1,
-                  "name": 102,
-                  "footage": 28,
-                  "area": 89.9,
-                  "kwh": 115414
-              },
-              {
-                  "id": 2,
-                  "name": 103,
-                  "footage": 32,
-                  "area": 105.79,
-                  "kwh": 91254
-              },
-              {
-                  "id": 3,
-                  "name": 104,
-                  "footage": 40,
-                  "area": 132.23,
-                  "kwh": 75191
-              },
-              {
-                  "id": 4,
-                  "name": 105,
-                  "footage": 45,
-                  "area": 148.76,
-                  "kwh": 85842
-              }
-          ]
+    "month": [
+        {
+            "id": "month_1",
+            "month_data": 1,
+            "dong": [
+                {
+                    "id": "dong_0",
+                    "name": 101,
+                    "footage": 28,
+                    "area": 89.9,
+                    "kwh": 84563
+                },
+                {
+                    "id": "dong_1",
+                    "name": 102,
+                    "footage": 28,
+                    "area": 89.9,
+                    "kwh": 115414
+                },
+                {
+                    "id": "dong_2",
+                    "name": 103,
+                    "footage": 32,
+                    "area": 105.79,
+                    "kwh": 91254
+                },
+                {
+                    "id": "dong_3",
+                    "name": 104,
+                    "footage": 40,
+                    "area": 132.23,
+                    "kwh": 75191
+                },
+                {
+                    "id": "dong_4",
+                    "name": 105,
+                    "footage": 45,
+                    "area": 148.76,
+                    "kwh": 85842
+                }
+            ]
+        }
       }
   ]
 }
