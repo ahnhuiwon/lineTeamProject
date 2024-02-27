@@ -115,8 +115,7 @@ const sumFunction = (sum1, sum2) => {
                 }
             ]
         }
-      }
-  ]
+    ]
 }
 ```
 
