@@ -37,6 +37,32 @@
 
 <br/>
 
+## 🔧 개발 환경 셋팅
+
+모든 경로는 root( teamProject )를 기준으로 합니다.
+
+<br/>
+
+## 프론트엔드
+
+1. pug -w ./fontEnd -o ./fontEnd/build -P
+
+> pug 자동 컴파일러
+
+2. sass --watch ./frontEnd/style/scss/index.scss:./frontEnd/style/scss/index.css
+
+> sass 자동 컴파일러
+
+<br />
+
+## 백엔드
+
+1. npm start
+
+> json 서버 실행 ( !package.json에서 port 번호 변경 )
+
+<br />
+
 ## 🔧 코드 작성시 규칙
 
 1. 주석은 아래와 같이 작성합니다.
